@@ -39,10 +39,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cmdBoton"
-            android:text="@string/saludar" />
+            android:text="@string/saludar"
+            android:onClick="saludar (Principal)" />
 
         <TextView
-            android:text="TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/IbMensaje" />
