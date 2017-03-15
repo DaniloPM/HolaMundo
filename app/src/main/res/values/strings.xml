@@ -3,4 +3,6 @@
     <string name="Titulo">Aplicacion Saludar</string>>
     <string name="holamundo"> aplicacion saludar</string>>
     <string name="Parte_Saludo">Hola</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
 </resources>

@@ -17,9 +17,10 @@
         android:layout_height="match_parent"
         android:id="@+id/textView"
         android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:weightSum="1">
 
         <TextView
             android:text="@string/holamundo"
@@ -33,19 +34,24 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/txtNombre" />
+            android:id="@+id/txtNombre"
+            android:hint="@string/Nombre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtApellido"
+            android:hint="@string/Apellido" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cmdBoton"
-            android:text="@string/saludar"
+            android:text="string/saludar"
             android:onClick="saludar (Principal)" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/IbMensaje" />
     </LinearLayout>
 
 </RelativeLayout>

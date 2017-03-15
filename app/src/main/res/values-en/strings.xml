@@ -4,4 +4,6 @@
     <string name="holamundo">something</string>
     <string name="Parte_Saludo">HolaMundo</string>
     <string name="Titulo">Hello</string>
+    <string name="Nombre">name</string>
+    <string name="Apellido">lastname</string>
 </resources>
