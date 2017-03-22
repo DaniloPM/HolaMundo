@@ -92,7 +92,21 @@ public class Principal extends AppCompatActivity {
             //Arranco la actividad que el Intent me diga.
             startActivity(i);//Pasa a la actividad que dijo el Intent.
 
-        }}
+        }
+
+    }
+    public void borrar(View v){
+        cajaNombre.setText(" ");
+        cajaNombre.requestFocus();
+        cajaApellido.setText(" ");
+        comboGenero.setSelection(0);
+        r1.setChecked(true);
+
+        
+
+    }
+
+
 
     public boolean validar() {
         if (cajaNombre.getText().toString().isEmpty()) {
