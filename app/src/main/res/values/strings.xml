@@ -13,5 +13,16 @@
     <string name="Borrar">Borrar</string>
     <string name="parte_saludo">Parte Saludo</string>
     <string name="parte_saludo2">parte Saludo2</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Saludar1">Saludar1</string>
+    <string name="Datos">Tus Datos Son:</string>
+    <string name="Genero">Genero</string>
+
+    <string-array name="generos">
+          <item>@string/Masculino</item>
+          <item>@string/Femenino</item>
+    </string-array>
+
 
 </resources>

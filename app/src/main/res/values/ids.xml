@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="txtSaludo" type="id">Saludo</item>
+    <item name="Soltero" type="id">Soltero</item>
+    <item name="Casado" type="id">Casado</item>
+    <item name="Divorciado" type="id">Divorciado</item>
+    <item name="Datos" type="id">Datos</item>
 </resources>

@@ -54,7 +54,7 @@
                 android:hint="@string/Apellido" />
 
             <TextView
-                android:text="Genero"
+                android:text="@string/Genero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2"
@@ -63,7 +63,7 @@
             <Spinner
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/spinner" />
+                android:id="@+id/cmdGenero" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -107,7 +107,7 @@
                     android:layout_width="121dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/cmdBoton"
-                    android:text="saludar"
+                    android:text="@string/Saludar1"
                     android:onClick="saludar (Principal)"
                     android:layout_weight="1" />
 
