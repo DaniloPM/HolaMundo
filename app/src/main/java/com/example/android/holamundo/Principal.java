@@ -102,7 +102,7 @@ public class Principal extends AppCompatActivity {
         comboGenero.setSelection(0);
         r1.setChecked(true);
 
-        
+
 
     }
 

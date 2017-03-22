@@ -108,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/cmdBoton"
                     android:text="@string/Saludar1"
-                    android:onClick="saludar (Principal)"
+                    android:onClick="saludar"
                     android:layout_weight="1" />
 
                 <Button
