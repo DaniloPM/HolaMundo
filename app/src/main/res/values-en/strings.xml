@@ -6,4 +6,8 @@
     <string name="Titulo">Hello</string>
     <string name="Nombre">name</string>
     <string name="Apellido">lastname</string>
+    <string name="Estado_Civil">Estado Civil</string>
+    <string name="Casado">Casado</string>
+    <string name="Divorciado">Divorciado</string>
+    <string name="Borrar">Borrar</string>
 </resources>

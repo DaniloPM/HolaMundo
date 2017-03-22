@@ -5,4 +5,11 @@
     <string name="Parte_Saludo">Hola</string>
     <string name="Nombre">Nombre</string>
     <string name="Apellido">Apellido</string>
+    <string name="Error_1">Error</string>
+    <string name="Estado_Civil">Estado Civil</string>
+    <string name="Soltero">Soltero(a)</string>
+    <string name="Casado">Casado(a)</string>
+    <string name="Divorciado">Divorciado(a)</string>
+    <string name="Borrar">Borrar</string>
+
 </resources>
