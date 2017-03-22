@@ -46,13 +46,13 @@ public class Principal extends AppCompatActivity {
 
     public boolean validar() {
         if (cajaNombre.getText().toString().isEmpty()) {
-            cajaNombre.setError(getResources().getString(R.string.error_1));
-            //Toast.makeText(this, "Digite Por Favor El Nombre.", Toast.LENGTH_SHORT).show();
+            //cajaNombre.setError(getResources().getString(R.string.error_1));
+            Toast.makeText(this, "Digite Por Favor El Nombre.", Toast.LENGTH_SHORT).show();
             return false;
         }
         if (cajaApellido.getText().toString().isEmpty()) {
-            cajaApellido.setError(getResources().getString(R.string.error_2));
-            //Toast.makeText(this, "Digite Por Favor El Apellido.", Toast.LENGTH_SHORT).show();
+           //cajaApellido.setError(getResources().getString(R.string.error_2));
+            Toast.makeText(this, "Digite Por Favor El Apellido.", Toast.LENGTH_SHORT).show();
             return false;
         }
         return true;

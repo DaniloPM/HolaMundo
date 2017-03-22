@@ -10,4 +10,6 @@
     <string name="Casado">Casado</string>
     <string name="Divorciado">Divorciado</string>
     <string name="Borrar">Borrar</string>
+    <string name="parte_saludo">Parte Saludo</string>
+    <string name="parte_saludo2">parte Saludo2</string>
 </resources>
